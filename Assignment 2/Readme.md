@@ -87,7 +87,7 @@ There are two types of varibles in shell script -
 |-ge|is greater than or equal to|
 |-lt|is less than|
 |-le|is less than oe equal|
-|
+
 
 
 **String Comparison**
@@ -97,7 +97,7 @@ There are two types of varibles in shell script -
 |!=|is not equal to|
 |\<|is less than, in ASCII alphabetical order|
 |\>|is greater than, in ASCII alphabeticalorder|
-|
+
 
 ### **Conditional statements -**
 Conditional statements are used to execute a block of code only when certain conditions are met. 
@@ -270,7 +270,7 @@ Use **'crontab -e'** command to edit the crontab file.
 |mon|Indicates the month during which the command will be executed|1-12|
 |dow|Specifies the day of the week for the task|0-6 where both 0 and 6 corresponds to Sunday|
 |cmd|Represents the actual command or script that will run at the scheduled time|-|
-|
+
 
 example\
 To run a script everyday at 11pm
@@ -287,5 +287,7 @@ To run a script everyday at 11pm
 * Use 'crontab -r' to remove all cron jobs
 
 
+
+   
 **Author - Majahar Kazi**\
 Monday 05 February 2024 10:48:11 PM IST
